@@ -50,6 +50,8 @@
   "license": "ISC",
   "description": "",
   "lint-staged": {
+    "src/**/*.{js,jsx,ts,tsx}": "eslint --cache --fix",
+    "src/**/*.{js,jsx,ts,tsx,css,scss,md}": "prettier --write --ignore-unknown",
     "*.js": "eslint --cache --fix",
     "*.{js,css,md}": "prettier --write"
   }

@@ -31,5 +31,6 @@ dist-ssr
 .vscode
 .eslintcache
 
+.eslintignore
 .prettierignore
 Readme-example.md

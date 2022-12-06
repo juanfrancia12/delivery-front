@@ -33,4 +33,5 @@ dist-ssr
 
 .eslintignore
 .prettierignore
-Readme-example.md
+example.md
+/example.md

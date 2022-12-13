@@ -4,9 +4,7 @@ function App(): JSX.Element {
   return (
     <>
       <ToastContainer />
-      <div className="text-red-500 text-3xl font-bold">
-        RUTAS PRIVADAS Y PUBLICAS DEL USUARIO
-      </div>
+      <div className="text-red-500 font-bold text-5xl">rutas</div>
     </>
   )
 }

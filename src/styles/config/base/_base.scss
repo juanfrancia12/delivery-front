@@ -21,7 +21,17 @@
     @apply w-full h-auto block;
   }
 
-  input {
+  input,
+  select {
     @apply outline-none;
   }
+
+  table {
+    // width: initial;
+    width: -webkit-fill-available;
+  }
+
+  // div[data-lastpass-icon-root] {
+  //   display: none !important;
+  // }
 }
